@@ -1,0 +1,17 @@
+#searchModal {
+    padding: 0 !important; 
+  }
+#searchModal .modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+  }
+#searchModal .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+#searchModal .modal-body {
+    overflow-y: auto;
+  }
