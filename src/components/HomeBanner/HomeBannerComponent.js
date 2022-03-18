@@ -7,7 +7,7 @@ class HomeBannerComponent extends Component{
                <div className='col-lg-7 col-md-7 col-sm-12' id='about-inpactor'>
                     <h3>InpactorDB: A Plant classified lineage-level LTR retrotransposon reference library for free-alignment methods based on Machine Learning</h3>
                     <p id='inpactor-description'>
-                        Here, we present InpactorDB a semi-curated dataset composed of 67241 elements from 195 plant genomes (belonging to 108 plant species), classified down to the lineage level. This data set has been used to train two deep neural networks (one fully connected and one convolutional) for fast classification of elements. Used in lineage-level classification approaches, we obtain a score above 98% of F1-score, precision and recall. 
+                        Here, we present InpactorDB a semi-curated dataset composed of 130,511 elements from 195 plant genomes (belonging to 108 plant species), classified down to the lineage level. This data set has been used to train two deep neural networks (one fully connected and one convolutional) for fast classification of elements. Used in lineage-level classification approaches, we obtain a score above 98% of F1-score, precision and recall. 
                     </p>
                     
                     <span>You can get more information and source code here: </span> 
