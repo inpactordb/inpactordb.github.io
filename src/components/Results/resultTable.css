@@ -1,0 +1,24 @@
+.hiddenRow {
+    padding: 0 !important;
+    background-color: #ffff;
+}
+.table-element:hover {
+    background-color: rgb(91, 192, 222, 1);
+    cursor: pointer !important;
+}
+.sequence-info {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    -moz-appearance:none;
+    outline:0px none transparent;
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+.sequence-info:hover {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
