@@ -42,6 +42,9 @@ class HomeBannerComponent extends Component{
                     <p>Ready to explore this amazing database?</p>
                     {/* <a href='#search-sequences' className='btn btn-info'>Search Sequences</a> */}
                     <a href='#' className='btn btn-info' data-toggle="modal" data-target="#searchModal">Search Sequences</a>
+                    <hr/>
+                    <span>If you used this data, please cite us:</span><br/>
+                    <span><i>Orozco-Arias, S., Jaimes, P. A., Candamil, M. S., Jiménez-Varón, C. F., Tabares-Soto, R., Isaza, G., & Guyot, R. (2021). InpactorDB: a classified lineage-level plant LTR retrotransposon reference library for free-alignment methods based on machine learning. Genes, 12(2), 190.</i></span>
                </div>
                <div className='col col-lg-5 col-md-5 col-sm-12' id="banner-image">
                    <img src='./img/img-banner2.jpg' className="rounded img-fluid"/>

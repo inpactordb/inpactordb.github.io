@@ -251,9 +251,7 @@ class SearchSectionComponent extends Component{
                                 </div>
                                 {/* End Filters */}
                             </div>
-                            <button className='btn btn-info' onClick={this.search}>Search</button><hr/>
-                            <span>If you used this data, please cite us:</span><br/>
-                            <span><i>Orozco-Arias, S., Jaimes, P. A., Candamil, M. S., Jiménez-Varón, C. F., Tabares-Soto, R., Isaza, G., & Guyot, R. (2021). InpactorDB: a classified lineage-level plant LTR retrotransposon reference library for free-alignment methods based on machine learning. Genes, 12(2), 190.</i></span>
+                            <button className='btn btn-info' onClick={this.search}>Search</button>
                         </div>
                         {/* Loading Animation*/}
                         <div className={`col-sm-12 col-md-9 col-lg-9 ${this.state.loading==true?"":"d-none"}`}>
